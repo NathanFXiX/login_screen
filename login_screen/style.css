@@ -61,6 +61,12 @@ body {
 
 .inputs input {
     padding: 5px;
+    border: 2px solid var(--brigt-gray);
+    border-radius: 5px;
+}
+
+.inputs input:focus {
+    outline: none;
 }
 
 .input-area {
@@ -78,10 +84,24 @@ body {
 
 #user {
     width: 100%;
+    letter-spacing: 1px;
+    background-color: white;
+    background-image: url(/content/images/user_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
 }
 
 #password {
     width: 100%;
+    letter-spacing: 1px;
+    background-color: white;
+    background-image: url(/content/images/password_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
 }
 
 /***** BUTTONS *****/
