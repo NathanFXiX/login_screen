@@ -1,0 +1,107 @@
+/***** RESET *****/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/***** COLOR ROOT *****/
+
+:root {
+    --brigt-gray: #A4B5D0;
+    --dark-gray: #3D3D4C;
+    --bright-blue: #93BBCF;
+    --dark-blue: #416483;
+    --mid-blue: #6FA1C9;
+}
+
+/***** BACKGROUND COLOR *****/
+
+body {
+    background-color: var(--dark-blue);
+}
+
+/***** OVER ALLCONTAINER *****/
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 25vh auto;
+    max-width: 65vh;
+    border-radius: 10px;     
+    background-color: var(--mid-blue);
+}
+
+/***** INSIDE CONTENT CONTAINER  *****/
+
+.content-container{
+    padding: 0px 30px;
+}
+
+.content-container h1{
+    color: white;
+    border-bottom: 2px solid var(--brigt-gray);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.content-container h5 {
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 15px 0px 20px 0px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: var(--dark-blue);
+}
+
+/***** FORM *****/
+
+.inputs input {
+    padding: 5px;
+}
+
+.input-area {
+    margin-bottom: 15px;
+}
+
+.input-area:last-child {
+    margin-bottom: 10px;
+}
+
+.inputs p {
+    margin-bottom: 2px;
+    color: var(--dark-gray);
+}
+
+#user {
+    width: 100%;
+}
+
+#password {
+    width: 100%;
+}
+
+/***** BUTTONS *****/
+
+.buttons {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: end;
+}
+
+.buttons a {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--dark-gray);
+    font-size: 1.2em;
+}
+
+.buttons a:hover {
+    transition: .3s linear;
+    background-color: var(--brigt-gray);
+}
