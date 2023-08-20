@@ -27,11 +27,12 @@ body {
 
 .container {
     display: flex;
+    height: 100vh;
     justify-content: center;
-    margin: 25vh auto;
-    max-width: 65vh;
-    border-radius: 10px;     
-    background-color: var(--mid-blue);
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;  
+    max-width: 30%;  
 }
 
 /***** INSIDE CONTENT CONTAINER  *****/
@@ -39,6 +40,7 @@ body {
 .content-container{
     padding: 0px 30px;
     box-shadow: 10px 5px 13px black;
+    background-color: var(--mid-blue);
 }
 
 .content-container h1{
